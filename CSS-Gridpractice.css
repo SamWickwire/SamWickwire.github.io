@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+
+
+header {
+    background: #7FDBFF;
+}
+
+header::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+
+#logo  {
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    float: left;
+    position: relative;
+    left: 5%;
+    width: 173px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+nav {
+    float: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav li {
+    list-style: none;
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0, 0.7);
+    font-size: 23px;
+    text-align: center;
+    width: 70px;
+    border-radius: 5px;
+    
+    
+}
+
+li:hover {
+    background-color: rgb(255, 134, 134);
+    color: black;
+    
+}
+
+a:hover {
+    color: black;
+
+}
+
+nav ul {
+    padding: 0px;
+    padding-top: 15px;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 5px;
+    margin-right: 40px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+    margin: 10px 8px 0 8px;
+    
+}
+
+.article {
+
+    background: #001f3f;
+    grid-column: 1/4;
+    grid-row: 1/6;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: 500;
+    color: #7FDBFF;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.box1 {
+    border: 1px solid black;
+    background: #3D9970;
+    grid-column: 4/6;
+    grid-row: 1/5;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box1 h4 {
+    padding-left: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.box1 img {
+    width: 330px;
+
+}
+
+.box2 {
+    border: 1px solid black;
+    background: grey;
+    grid-row:  6/9;
+    grid-column: 1/4;
+}
+
+.box2 h3 {
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.box2 ul {
+    list-style:  none;
+    line-height: 50px;
+    font-size: 25px;
+    color: white;
+
+}
+
+
+
+
+.box3 {
+    border: 1px solid black;
+    background: #85144b;
+    grid-column: 4/6;
+    grid-row: 5/8
+}
+
+.box3 h5 {
+    font-size: 30px;
+    color:  white;
+    padding-left: 10px;
+    margin-top: 1;
+}
+
+
+.box3 ul {
+    list-style: none;
+    padding-left: 100px;
+    margin-top: -50px;
+    font-size: 25px;
+    color: white;
+    line-height: 40px;
+
+}
+
+.box3 li {
+    text-decoration: none;
+    
+}
+
+
+.box4 {
+    border: 1px solid black;
+    grid-column: 4/6;
+    grid-row: 8/11;
+}
+
+.box4 img {
+    width: 100%;    
+    height: 100%;
+}
+
+
+
+.box5 {
+    border: 1px solid black;
+    background-color: #39CCCC;
+    grid-column:  1/4;
+    grid-row:  9/11;
+    padding-bottom: 0;
+    color: black;
+    font-size: 23px;
+    padding: 5px;
+    
+}
+
