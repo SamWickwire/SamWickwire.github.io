@@ -1,0 +1,953 @@
+
+body {
+    margin: 0;
+    min-width: 1380px;
+}
+
+.topnav {
+    border-top: 1px solid rgb(41, 41, 41);
+    background: black;
+    width: 100%;
+    height: 70px;
+    color: white;
+    
+    display: grid;
+    grid-template-columns: 10% 55% 25% 10%;
+    grid-gap: 1px;
+
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 12px;
+    
+}
+
+
+
+.navbox1 {
+
+}
+
+
+/* Start of navbox2 */
+.navbox2 {
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+    grid-auto-rows: 100%;
+    
+   
+    align-items: center;
+    
+    
+}
+
+.logo {
+    height: 36px;
+    width: 72px;
+    padding-left: 15px;
+}
+
+
+/* How to arrow down */
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);    
+}
+
+.navbox2 a {
+
+    text-transform:  uppercase;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    /* How to center the div within the anchor tag */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbox2 a:hover {
+
+    border-top: 1px solid rgb(212, 25, 0);
+    color: rgb(212, 25, 0);
+    margin-top: -1px; /* This makes it so that when you hover, the text isn't moved down 1 pixel*/
+    
+}
+.navbox2 .non_hover:hover {
+    border: none;
+}
+a:hover i  {
+    border: solid rgb(212, 25, 0);
+    border-width: 0 3px 3px 0;
+    
+}
+
+.navbox2 div {
+    position: inline-block;
+}
+
+/* End of navbox2 */
+
+
+
+
+
+/* Start of navbox3 */
+.navbox3 {  
+    display: flex; 
+    justify-content: flex-end;   
+    align-items: stretch;
+    margin-right: 30px;  
+    align-items: center;
+}
+
+.line {
+    height: 25px;
+    width: 1px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.navbox3 img {
+    
+    width: 20px;
+    height: 20px; 
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.navbox3 a:hover {
+
+    border-top: 1px solid rgb(212, 25, 0);
+    color: rgb(212, 25, 0);
+    margin-top: -1px; /* This makes it so that when you hover, the text isn't moved down 1 pixel*/
+
+}
+
+.navbox3 a {
+    position: inline-block;
+    text-transform:  uppercase;
+    color: white;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.navbox3 div {
+    position: inline-block;
+}
+
+/* End of navbox3 */
+
+.navbox4 {
+    
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: 10% 55% 25% 10%;
+    grid-gap: 1px;
+    grid-auto-rows: 780px;
+    padding: 30px 10px 0px 10px;
+}
+
+
+
+
+
+
+.sidecontainer1 {
+
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+/* Start of container1 */
+
+.container1 {
+    /* border: 1px solid black; */
+}
+
+.container1 .mainimg {
+    width: 740px;
+    height: 450px;
+}
+
+.container1 .maincontent {
+    position: relative;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.centered-bottom {
+    
+    position: absolute;
+    bottom: 3px;
+    width: 94.5%;
+    float: left;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: "Source Sans Pro",sans-serif;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.9);
+    
+}
+
+.img_title_anchor {
+    color: white;
+}
+
+.secondarycontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    font-family: "Source Sans Pro",sans-serif
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    
+    text-decoration: none;
+}
+
+.box1 a {
+    display: inline-block;
+    text-decoration: none;
+
+    /* Causes element to take color of parent */
+    color: inherit;
+}
+
+
+.box1 .box1_img_anchor:hover {
+    opacity: 100%;
+}
+.box1 a:hover {
+    opacity: 70%;
+}
+
+
+.comment_icon {
+    position: relative;
+    width: 13px;
+    height: 13px;
+    bottom: 73px;
+}
+
+.views_icon {
+    position: relative;
+    width: 13px;
+    height: 13px;
+    bottom: 73px;
+}
+
+.box1 h5 {
+    position: relative;
+    color: rgb(212, 25, 0);
+    bottom: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight:  100;
+}
+
+.box1 h6{
+    position: relative;
+    bottom: 50px;
+    font-size: 15px;
+    opacity: .7;
+    padding: 0;
+    
+}
+
+.box1 p {
+    position: relative;
+    color: grey;
+    bottom: 103px;
+    left: 20px;
+    font-size: 13px;
+}
+
+.comment_anchor {
+    position: relative;
+    border: 1px solid black;
+    visibility: hidden;
+    /* Visiblity: hidden because I was getting a weird error with anchor tag going outside of container */
+}
+
+.comment_anchor img, p {
+    visibility: visible;
+}
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 a {
+    display: inline-block;
+    text-decoration: none;
+
+    /* Causes element to take color of parent */
+    color: inherit;
+}
+
+
+.box2 .box2_img_anchor:hover {
+    opacity: 100%;
+}
+.box2 a:hover {
+    opacity: 70%;
+}
+
+.box3_h6_anchor {
+    display: inline-block;
+}
+
+.box2 p {
+    position: relative;
+    color: grey;
+    bottom: 101px;
+    left: 20px;
+    font-size: 13px;
+}
+
+.box2 h5 {
+    position: relative;
+    color: rgb(212, 25, 0);
+    bottom: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight:  100;
+}
+
+.box2 h6{
+    position: relative;
+    bottom: 50px;
+    font-size: 15px;
+    opacity: .7;
+}
+
+
+.box3 p {
+    position: relative;
+    color: grey;
+    bottom: 101px;
+    left: 20px;
+    font-size: 13px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box3 a {
+    display: inline-block;
+    text-decoration: none;
+
+    /* Causes element to take color of parent */
+    color: inherit;
+}
+
+
+.box3 .box3_img_anchor:hover {
+    opacity: 100%;
+}
+.box3 a:hover {
+    opacity: 70%;
+}
+
+
+.box3 h5 {
+    position: relative;
+    color: rgb(212, 25, 0);
+    bottom: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight:  100;
+}
+
+.box3 h6{
+    position: relative;
+    bottom: 50px;
+    font-size: 15px;
+    opacity: .7;
+}
+
+/* End container1 */
+
+
+
+
+/* Start container2 */
+.container2 {
+    /* border: 1px solid black; */
+    
+}
+
+.container2 h5 {
+    padding-left: 20px;
+    margin: 0;
+    
+    opacity: 0.7;
+    font-weight: 100;
+}
+
+.container2 img {
+    padding-left: 20px;
+}
+/* End container2 */
+
+
+
+
+
+.sidecontainer2 {
+
+}
+
+
+
+
+.below_main_ad {
+    text-align: center;
+}
+
+.below_main_ad h5 {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 325px;
+    
+    opacity: 0.7;
+    font-weight: 100;
+}
+
+/* Start of bottom content */
+
+.bottom_content {
+    display: grid;
+    grid-template-columns: 10% 55% 25% 10%;
+    grid-gap: 1px;
+    grid-auto-rows: 5000px;
+    padding: 30px 10px 0px 10px;
+}
+
+.bottom_left {
+    
+}
+
+.main_bottom_content {
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    padding: 5px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+
+.latest_songs {
+    
+}
+
+.latest_songs_title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+/* Song Display Title */
+.latest_songs_title h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+    
+}
+
+/* Archive Tag */
+.latest_songs_title h6 {
+    margin: 0;
+    padding: 0;
+    color: red;
+    text-transform: uppercase;
+    justify-self: end;
+    align-self: center;
+    font-weight: 400;
+    
+}
+
+.latest_songs_display {
+    display: grid;
+    
+}
+
+.latest_songs_display img {
+    height: 77px;
+    width: 77px;
+    margin: 15px 0 15px 0;
+}
+
+.song1 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song2 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+     
+}
+
+.song3 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song4 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song5 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song6 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song7 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song8 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song9 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song10 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song11 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song12 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song13 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song14 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song15 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song16 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song17 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song18 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song19 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+}
+
+.song20 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song21 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song22 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song23 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+.song24 {
+    border-top: 1px solid grey;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    
+}
+
+
+
+.songbox1 {
+    align-self: center;
+
+}
+
+.songbox2 {
+    position: relative;
+    left: 20px;
+ 
+}
+
+.songbox2 h5 {
+    margin: 0;
+    padding: 0;
+    opacity: 70%;
+
+}
+
+/* Song Title */
+
+.songbox2 h4 {
+    align-self: center;
+    position: relative;
+    top: 20px;
+
+    margin: 0;
+    padding: 0;
+    color: #444;
+    
+}
+
+/* Song Artist */
+.songbox2 h5 {
+    position: relative;
+    top: 25px;
+    font-size: 10px;
+    
+}
+
+/* Very hot tag */
+.songbox2 h6 {
+    position: relative;
+    top: 22px;
+    text-transform: uppercase;
+    color: rgb(212, 25, 0);
+    font-weight: 800;
+    opacity: 90%;
+}
+
+
+.songbox3 {
+    font-size: 10px;
+    color: white;   
+}
+.song_date_song7 {
+    font-size: 8px;
+    
+}
+
+.songbox3 div {
+    
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+.more_songs {
+    color: grey;
+    border: 1px solid grey;
+
+    width: 100%;
+    height: 50px;
+    
+    text-decoration: none;
+    display: flex;
+    
+}
+
+.more_songs a {
+    text-decoration: none;
+    text-align: center;
+    color: grey;
+}
+
+.more_songs h6 {
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+
+.more_songs:hover {
+    background-color: #D3D3D3;
+    color: white;
+}
+
+.more_songs i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    position: relative;   
+}
+.right {
+    -webkit-transform: rotate(315deg);    
+}
+
+
+
+
+
+
+
+
+.latest_news_column {
+   
+    list-style: none;
+    
+}
+
+/* Song Display Title */
+.latest_news_column h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+    
+}
+
+.latest_news_list {
+    list-style: none;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.latest_news_body {
+    display: flex;
+}
+
+.latest_news_img {
+
+}
+
+.latest_news_item_title {
+    position: relative;
+    bottom: 113px;
+    left: 150px;
+    font-size: 11px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 80%;
+    
+    
+}
+
+.latest_news_item_time {
+    position: relative;
+    bottom:  113px;
+    font-size: 10px;
+    left: 290px;
+    color: grey;
+    opacity: 80%;
+}
+
+.latest_news_item_paragraph {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Source Sans Pro",sans-serif;
+    position: relative;
+    left: 70px;
+    bottom: 90px;
+    opacity: 70%;
+    width: 165px;
+}
+
+.latest_news_comment_count {
+    
+    font-size: 10px;
+    position: relative;
+    
+    right: 90px;
+    bottom: 40px;
+    color: grey;
+}
+
+
+
+
+/* Was getting a display error where the comment p would go below the 0  */
+.latest_news_comment_comment { 
+    font-size: 10px;
+    position: relative;
+    
+    right: 87px;
+    bottom: 40px;
+    color: grey;
+}
+
+.latest_news_comment_icon {
+    position: relative;
+    width: 13px;
+    height: 13px;
+    right: 95px;
+    bottom: 18px;
+}
+
+.latest_news_views_icon {
+    position: relative;
+    width: 15px;
+    height: 13px;
+    right: 10px;
+    bottom: 15px;
+    opacity: 50%;
+}
+
+.latest_news_views_count {
+    position: relative;
+    bottom: 39px;
+    right: 3px;
+    color: grey;
+    
+}
+
+.latest_news_views_count_comment {
+    position: relative;
+    bottom: 39px;
+    color: grey;
+}
+
+
+.latest_news_body {
+    height: 0;
+    
+}
+
+
+
+.bottom_ad {
+    border: 1px solid black;
+}
+
+.bottom_right {
+    border: 1px solid black;
+}
+
